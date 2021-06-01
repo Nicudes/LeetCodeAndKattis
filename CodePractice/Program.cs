@@ -8,7 +8,7 @@ namespace CodePractice
     {
         static void Main(string[] args)
         {
-            Tests.PalindromeNumber.RunTest();
+            Tests.RomanToInt.RunTest();
         }
 
 	
