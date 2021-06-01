@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodePractice
+namespace CodePractice.Tests
 {
     class Fizzbuzz
     {
 
-        public IList<string> FizzBuzz(int n)
+        public static IList<string> FizzBuzz(int n)
         {
 
             List<String> answer = new List<String>();
@@ -37,6 +37,17 @@ namespace CodePractice
             }
             return answer;
 
+        }
+
+        public static void RuntTest()
+        {
+
+            IList<string> fizzBuzzResult =FizzBuzz(45);
+
+            foreach (var i in fizzBuzzResult)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }

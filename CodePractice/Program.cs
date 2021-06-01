@@ -8,8 +8,8 @@ namespace CodePractice
     {
         static void Main(string[] args)
         {
-            Scramble.StartScramble();
-		}
+            Tests.TwoSum.RunTest();
+        }
 
 	
 	}
