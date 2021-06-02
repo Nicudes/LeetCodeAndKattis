@@ -8,8 +8,8 @@ namespace CodePractice
     {
         static void Main(string[] args)
         {
-            Tests.RomanToInt.RunTest();
-        }
+            Tests.ValidParentheses.RunTest();
+                }
 
 	
 	}
