@@ -8,8 +8,8 @@ namespace CodePractice
     {
         static void Main(string[] args)
         {
-            Tests.ValidParentheses.RunTest();
-                }
+            Tests.GetMiddleSubstring.RunTest();
+        }
 
 	
 	}
