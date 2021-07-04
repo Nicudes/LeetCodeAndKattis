@@ -8,7 +8,7 @@ namespace CodePractice
     {
         static void Main(string[] args)
         {
-            Tests.GetMiddleSubstring.RunTest();
+            Tests.MagicNumber.Solution();
         }
 
 	
